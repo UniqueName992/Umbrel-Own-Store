@@ -11,6 +11,4 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/books/books
     command: --name $RM_NAME --persist
-    environment:
-      - test: "$RM_NAME"
     restart: on-failure
