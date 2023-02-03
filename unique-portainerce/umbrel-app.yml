@@ -4,6 +4,7 @@ category: Development
 name: Portainer CE
 version: "4.4.0"
 tagline: Powerful container management
+icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-portainer-icon.svg
 description: >-
   Deploy, configure, troubleshoot and secure containers in minutes on 
   Kubernetes, Docker, Swarm and Nomad in any data center, cloud, network edge 
@@ -19,9 +20,9 @@ repo: https://github.com/portainer/portainer
 support: https://github.com/portainer/portainer/issues
 port: 9000
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-portainer-1.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-portainer-2.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-portainer-3.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
