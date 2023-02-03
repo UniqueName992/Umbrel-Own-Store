@@ -10,5 +10,5 @@ services:
     image: evanbuss/openbooks:4.4.1
     volumes:
       - ${APP_DATA_DIR}/data:/books/books
-    command: --persist
+    command: --name $RM_NAME --persist
     restart: on-failure
