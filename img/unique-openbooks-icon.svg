@@ -23,7 +23,7 @@
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
      inkscape:zoom="3.84375"
-     inkscape:cx="128"
+     inkscape:cx="128.26016"
      inkscape:cy="128.13008"
      inkscape:window-width="2880"
      inkscape:window-height="1533"
@@ -31,11 +31,6 @@
      inkscape:window-y="584"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg50" />
-  <path
-     d="M 256.001,0 H -0.00363159 V 256.01 H 256.001 Z"
-     fill="#495962"
-     id="path2"
-     clip-path="url(#clipPath314)" />
   <defs
      id="defs48">
     <clipPath
@@ -77,32 +72,40 @@
     </clipPath>
   </defs>
   <g
-     id="g447"
-     style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
-     transform="matrix(7.793383,0,0,7.793383,5.6195011,3.7781596)">
+     id="g187">
+    <path
+       d="M 256.001,0 H -0.00363159 V 256.01 H 256.001 Z"
+       fill="#495962"
+       id="path2"
+       clip-path="url(#clipPath314)" />
     <g
-       id="g380">
-      <path
-         style="opacity:1"
-         fill="#129999"
-         d="m 7.5,4.5 c 1.33333,0 2.6667,0 4,0 0,6 0,12 0,18 -1.052,-0.1495 -2.05198,0.0172 -3,0.5 -1.33333,0.6667 -1.33333,1.3333 0,2 4.9889,0.4993 9.9889,0.6659 15,0.5 0,0.3333 0,0.6667 0,1 -5.3333,0 -10.6667,0 -16,0 0,-0.6667 -0.33333,-1 -1,-1 0,-6.6667 0,-13.3333 0,-20 0.66667,0 1,-0.33333 1,-1 z"
-         id="path378" />
-    </g>
-    <g
-       id="g384">
-      <path
-         style="opacity:1"
-         fill="#2fcc98"
-         d="m 11.5,4.5 c 4,0 8,0 12,0 0,0.66667 0.3333,1 1,1 0,5.3333 0,10.6667 0,16 -4.2352,0.936 -8.5685,1.2693 -13,1 0,-6 0,-12 0,-18 z"
-         id="path382" />
-    </g>
-    <g
-       id="g388">
-      <path
-         style="opacity:1"
-         fill="#d3d7d7"
-         d="m 24.5,21.5 c 0.0674,1.4587 -0.2659,2.7921 -1,4 -5.0111,0.1659 -10.0111,-7e-4 -15,-0.5 -1.33333,-0.6667 -1.33333,-1.3333 0,-2 0.94802,-0.4828 1.948,-0.6495 3,-0.5 4.4315,0.2693 8.7648,-0.064 13,-1 z"
-         id="path386" />
+       id="g447"
+       style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+       transform="matrix(7.793383,0,0,7.793383,5.6195011,3.7781596)">
+      <g
+         id="g380">
+        <path
+           style="opacity:1"
+           fill="#129999"
+           d="m 7.5,4.5 c 1.33333,0 2.6667,0 4,0 0,6 0,12 0,18 -1.052,-0.1495 -2.05198,0.0172 -3,0.5 -1.33333,0.6667 -1.33333,1.3333 0,2 4.9889,0.4993 9.9889,0.6659 15,0.5 0,0.3333 0,0.6667 0,1 -5.3333,0 -10.6667,0 -16,0 0,-0.6667 -0.33333,-1 -1,-1 0,-6.6667 0,-13.3333 0,-20 0.66667,0 1,-0.33333 1,-1 z"
+           id="path378" />
+      </g>
+      <g
+         id="g384">
+        <path
+           style="opacity:1"
+           fill="#2fcc98"
+           d="m 11.5,4.5 c 4,0 8,0 12,0 0,0.66667 0.3333,1 1,1 0,5.3333 0,10.6667 0,16 -4.2352,0.936 -8.5685,1.2693 -13,1 0,-6 0,-12 0,-18 z"
+           id="path382" />
+      </g>
+      <g
+         id="g388">
+        <path
+           style="opacity:1"
+           fill="#d3d7d7"
+           d="m 24.5,21.5 c 0.0674,1.4587 -0.2659,2.7921 -1,4 -5.0111,0.1659 -10.0111,-7e-4 -15,-0.5 -1.33333,-0.6667 -1.33333,-1.3333 0,-2 0.94802,-0.4828 1.948,-0.6495 3,-0.5 4.4315,0.2693 8.7648,-0.064 13,-1 z"
+           id="path386" />
+      </g>
     </g>
   </g>
 </svg>
