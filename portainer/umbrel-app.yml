@@ -1,0 +1,34 @@
+manifestVersion: 1
+id: portainer
+category: Development
+name: Portainer Community Edition
+version: "4.4.0"
+tagline: Powerful container management
+description: >-
+  Deploy, configure, troubleshoot and secure containers in minutes on 
+  Kubernetes, Docker, Swarm and Nomad in any data center, cloud, network edge 
+  or IIOT device. 
+
+  Save time by deploying apps rapidly and centralizing your container management
+
+  Reduce risk by managing and securing your clusters quickly
+
+  Minimize complexity with sane defaults to keep your team on the right track
+
+  Portainer gives you hybrid and multi-cloud, multi-cluster, multi-device, container management
+developer: portainer.io
+website: https://www.portainer.io/
+dependencies: []
+repo: https://github.com/portainer/portainer
+support: https://github.com/portainer/portainer/issues
+port: 9000
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel/commit/14f8b3aec8cb99ef0940ba0cd9df25b7126a95cc
