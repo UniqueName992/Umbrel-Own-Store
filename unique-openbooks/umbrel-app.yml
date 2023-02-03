@@ -2,21 +2,17 @@ manifestVersion: 1
 id: unique-openbooks
 category: Networking
 name: Open Books
-version: "4.4.0"
-tagline: Powerful container management
+version: "4.5.0"
+tagline: Openbooks allows you to download ebooks from irc.irchighway.net quickly and easily.
+icon: https://svgshare.com/i/q0h.svg
 description: >-
-  Deploy, configure, troubleshoot and secure containers in minutes on 
-  Kubernetes, Docker, Swarm and Nomad in any data center, cloud, network edge 
-  or IIOT device. 
-  Save time by deploying apps rapidly and centralizing your container management. 
-  Reduce risk by managing and securing your clusters quickly
-  Minimize complexity with sane defaults to keep your team on the right track
-  Portainer gives you hybrid and multi-cloud, multi-cluster, multi-device, container management
-developer: portainer.io
-website: https://www.portainer.io/
+  I wrote this as an easier way to search and download books from irchighway.net. It handles all the extraction and data processing for you. You just have to click the book you want. Hopefully you find it much easier than the IRC interface.
+  It was also interesting to learn how the IRC and DCC protocols work and write custom implementations.
+developer: Evan Buss
+website: https://github.com/evan-buss/openbooks
 dependencies: []
-repo: https://github.com/portainer/portainer
-support: https://github.com/portainer/portainer/issues
+repo: https://github.com/evan-buss/openbooks
+support: https://github.com/evan-buss/openbooks/issues
 port: 9284
 gallery:
   - 1.jpg
@@ -26,5 +22,5 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 torOnly: false
-submitter: Umbrel
+submitter: Pippa
 submission: https://github.com/getumbrel/umbrel/commit/14f8b3aec8cb99ef0940ba0cd9df25b7126a95cc
