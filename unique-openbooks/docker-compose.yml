@@ -10,5 +10,7 @@ services:
     image: evanbuss/openbooks:4.5.0
     volumes:
       - ${APP_DATA_DIR}/data:/books/books
-    command: --name $RM_NAME --persist
+    command: --name sjuofiow --persist
+    environment:
+      - test: "$RM_NAME"
     restart: on-failure
