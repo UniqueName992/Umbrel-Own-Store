@@ -1,20 +1,16 @@
 manifestVersion: 1
-id: Umbrel-Own-Store-portainer
+id: uniquie-portainerCE
 category: Development
-name: Portainer Community Edition
+name: Portainer CE
 version: "4.4.0"
 tagline: Powerful container management
 description: >-
   Deploy, configure, troubleshoot and secure containers in minutes on 
   Kubernetes, Docker, Swarm and Nomad in any data center, cloud, network edge 
   or IIOT device. 
-
-  Save time by deploying apps rapidly and centralizing your container management
-
+  Save time by deploying apps rapidly and centralizing your container management. 
   Reduce risk by managing and securing your clusters quickly
-
   Minimize complexity with sane defaults to keep your team on the right track
-
   Portainer gives you hybrid and multi-cloud, multi-cluster, multi-device, container management
 developer: portainer.io
 website: https://www.portainer.io/
@@ -23,9 +19,9 @@ repo: https://github.com/portainer/portainer
 support: https://github.com/portainer/portainer/issues
 port: 9000
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  #- 1.jpg
+  #- 2.jpg
+  #- 3.jpg
 path: ""
 defaultUsername: ""
 defaultPassword: ""
