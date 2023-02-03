@@ -1,0 +1,1 @@
+export EXTERNAL_IP=$(docker-machine ip)
