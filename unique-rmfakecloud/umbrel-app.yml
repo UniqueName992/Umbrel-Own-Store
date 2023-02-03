@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: unique-rmfakecloud
+category: Networking
+name: RM FakeCloud
+version: "0.0.12"
+tagline: This is a replacement of the cloud, in case you want to sync/backup your files and have full control of the hosting environment.
+description: >-
+  This is a replacement of the cloud, in case you want to sync/backup your files and have full control of the hosting environment.
+
+  This requires port 3000 to work with remarkable.
+developer: ddvk
+website: https://github.com/ddvk/rmfakecloud
+dependencies: []
+repo: https://github.com/ddvk/rmfakecloud
+support: https://github.com/ddvk/rmfakecloud/issues
+port: 3689
+gallery:
+  - 1.jpg
+  - 2.jpg
+  - 3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+submitter: Pippa
+submission: https://github.com/getumbrel/umbrel/commit/14f8b3aec8cb99ef0940ba0cd9df25b7126a95cc
