@@ -10,5 +10,5 @@ services:
     image: evanbuss/openbooks:latest
     volumes:
       - ${APP_DATA_DIR}/data:/books/books
-    command: --name $RM_NAME --persist
+    command: --name $RM_NAME --searchbot searchook --persist
     restart: on-failure
