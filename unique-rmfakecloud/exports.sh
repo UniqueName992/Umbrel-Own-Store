@@ -1,1 +1,1 @@
-export EXTERNAL_IP=$(docker-machine ip)
+export EXTERNAL_IP=$(hostname -I | awk '{print $1}')
