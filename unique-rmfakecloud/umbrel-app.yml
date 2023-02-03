@@ -7,7 +7,7 @@ tagline: This is a replacement of the cloud, in case you want to sync/backup you
 description: >-
   This is a replacement of the cloud, in case you want to sync/backup your files and have full control of the hosting environment.
 
-  This requires port 3000 to work with remarkable.
+  This requires port 3689 to work with remarkable.
 developer: ddvk
 website: https://github.com/ddvk/rmfakecloud
 dependencies: []
