@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: portainer
+id: Umbrel-Own-Store-portainer
 category: Development
 name: Portainer Community Edition
 version: "4.4.0"
