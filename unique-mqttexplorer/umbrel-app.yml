@@ -21,8 +21,8 @@ description: >-
   * Dark/Light Themes
 
 
-The hierarchical view makes this tool so easy to use and differentiates the MQTT Explorer from other great MQTT clients like MQTTLens, MQTTBox and MQTT.fx.
-This MQTT Client strives to be a MQTT swiss-army-knife, the perfect tool to integrate new services and IoT devices on your network.
+  The hierarchical view makes this tool so easy to use and differentiates the MQTT Explorer from other great MQTT clients like MQTTLens, MQTTBox and MQTT.fx.
+  This MQTT Client strives to be a MQTT swiss-army-knife, the perfect tool to integrate new services and IoT devices on your network.
 developer: thomasnordquist
 website: https://mqtt-explorer.com/
 dependencies: []
