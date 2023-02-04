@@ -4,19 +4,20 @@ category: Networking
 name: RM FakeCloud
 version: "0.0.12"
 tagline: This is a replacement of the Remarkable cloud, in case you want to sync/backup your files and have full control of the hosting environment.
-icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-portainer-icon.svg
+icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-icon.svg
 description: >-
   This is a replacement of the Remarkable cloud, in case you want to sync/backup your files and have full control of the hosting environment.
 
 
-  Follow the guide at: https://ddvk.github.io/rmfakecloud/remarkable/setup/ to configure your device
+  Follow the guide at: https://ddvk.github.io/rmfakecloud/remarkable/setup/ to configure your device.
 
   For example if you use automagic just specify the below URL when prompted, subsituting the IP for your own:
 
-  http://192.168.0.3:3689
-  
 
-  !!Auth is disabled. ...
+  http://192.168.0.3:3689
+
+
+  ⚠️ RMFakeCloud Bypasses the proxy and isn't secured by umbrel.
 developer: ddvk
 website: https://github.com/ddvk/rmfakecloud
 dependencies: []
@@ -24,9 +25,9 @@ repo: https://github.com/ddvk/rmfakecloud
 support: https://github.com/ddvk/rmfakecloud/issues
 port: 3689
 gallery:
-  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-portainer-1.png
-  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-portainer-2.png
-  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-portainer-3.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-1.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-2.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-3.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
