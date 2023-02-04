@@ -8,7 +8,9 @@ icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/im
 description: >-
   Search and download Ebooks from irc.irchighway.net.
 
+
   This app generates a random user name to use for connecting to IRC.
+
 
   Evan wrote this as an easier way to search and download books from irchighway.net. It handles all the extraction and data processing for you. You just have to click the book you want. Hopefully you find it much easier than the IRC interface.
   Evan found it interesting to learn how the IRC and DCC protocols work and write custom implementations.
