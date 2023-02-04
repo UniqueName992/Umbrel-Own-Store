@@ -1,12 +1,6 @@
 version: "3.7"
 
 services:
-  app_proxy:
-    environment:
-      APP_HOST: unique-rmfakecloud_server_1
-      APP_PORT: 3689
-      PROXY_AUTH_ADD: "false"
-
   server:
     image: ddvk/rmfakecloud:0.0.12-10-gaad1e50
     restart: on-failure
@@ -17,3 +11,5 @@ services:
       - JWT_SECRET_KEY=$RM_JWT
       - RM_TRUST_PROXY=true
       - PORT=3689
+    ports:
+      - 3689:3689
