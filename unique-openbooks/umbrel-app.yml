@@ -6,8 +6,12 @@ version: "4.5.0"
 tagline: Openbooks allows you to download ebooks from irc.irchighway.net quickly and easily.
 icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-openbooks-icon.svg
 description: >-
-  I wrote this as an easier way to search and download books from irchighway.net. It handles all the extraction and data processing for you. You just have to click the book you want. Hopefully you find it much easier than the IRC interface.
-  It was also interesting to learn how the IRC and DCC protocols work and write custom implementations.
+  Search and download Ebooks from irc.irchighway.net.
+
+  This app generates a random user name to use for connecting to IRC.
+
+  Evan wrote this as an easier way to search and download books from irchighway.net. It handles all the extraction and data processing for you. You just have to click the book you want. Hopefully you find it much easier than the IRC interface.
+  Evan found it interesting to learn how the IRC and DCC protocols work and write custom implementations.
 developer: Evan Buss
 website: https://github.com/evan-buss/openbooks
 dependencies: []
@@ -15,12 +19,11 @@ repo: https://github.com/evan-buss/openbooks
 support: https://github.com/evan-buss/openbooks/issues
 port: 9284
 gallery:
-  - 1.jpg
-  - 2.jpg
-  - 3.jpg
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-openbooks-1.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-openbooks-2.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-openbooks-3.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
 torOnly: false
-submitter: Pippa
-submission: https://github.com/getumbrel/umbrel/commit/14f8b3aec8cb99ef0940ba0cd9df25b7126a95cc
+submitter: UniqueName992
