@@ -5,6 +5,7 @@ services:
     environment:
       APP_HOST: unique-rmfakecloud_server_1
       APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
 
   server:
     image: ddvk/rmfakecloud:0.0.12-10-gaad1e50

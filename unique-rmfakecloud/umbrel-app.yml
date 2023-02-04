@@ -10,9 +10,14 @@ description: >-
 
 
   https://ddvk.github.io/rmfakecloud/remarkable/setup/
-
+  opkg install rmfakecloud-proxy
+  rmfakecloudctl set-upstream http://192.168.q.3:3689
+  rmfakecloudctl enable
+  systemctl start xochitl
 
   This requires port 3689 to work with remarkable.
+
+  !!Auth is disabled. ...
 developer: ddvk
 website: https://github.com/ddvk/rmfakecloud
 dependencies: []
@@ -27,6 +32,4 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 torOnly: false
-PROXY_AUTH_ADD: "false"
-submitter: Pippa
-submission: https://github.com/getumbrel/umbrel/commit/14f8b3aec8cb99ef0940ba0cd9df25b7126a95cc
+submitter: UniqueName992
