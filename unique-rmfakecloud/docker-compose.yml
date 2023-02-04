@@ -15,4 +15,4 @@ services:
     environment:
       - STORAGE_URL=http://$EXTERNAL_IP:3689
       - JWT_SECRET_KEY=$RM_JWT
-      - - RM_TRUST_PROXY=true
+      - RM_TRUST_PROXY=true
