@@ -1,0 +1,40 @@
+manifestVersion: 1
+id: unique-mqttexplorer
+category: Automation
+name: MQTT Explorer
+version: "1.0.1"
+tagline: Let's you explore your MQTT Server
+icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-mqttexplorer-icon.svg
+description: >-
+  MQTT Explorer is a comprehensive MQTT client that provides a structured overview of your MQTT topics and makes working with devices/services on your broker dead-simple.
+
+
+  * Features
+  * Visualize topics and topic activity
+  * Delete retained topics
+  * Search/filter topics
+  * Delete topics recursively
+  * Diff view of current and previous received messages
+  * Publish topics
+  * Plot numeric topics
+  * Retain a history of each topic
+  * Dark/Light Themes
+
+
+The hierarchical view makes this tool so easy to use and differentiates the MQTT Explorer from other great MQTT clients like MQTTLens, MQTTBox and MQTT.fx.
+This MQTT Client strives to be a MQTT swiss-army-knife, the perfect tool to integrate new services and IoT devices on your network.
+developer: thomasnordquist
+website: https://mqtt-explorer.com/
+dependencies: []
+repo: https://github.com/Smeagolworms4/MQTT-Explorer/
+support: https://github.com/Smeagolworms4/MQTT-Explorer/issues
+port: 4821
+gallery:
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-mqttexplorer-1.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-mqttexplorer-2.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-mqttexplorer-3.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+submitter: UniqueName992
