@@ -9,13 +9,12 @@ description: >-
   This is a replacement of the Remarkable cloud, in case you want to sync/backup your files and have full control of the hosting environment.
 
 
-  https://ddvk.github.io/rmfakecloud/remarkable/setup/
-  opkg install rmfakecloud-proxy
-  rmfakecloudctl set-upstream http://192.168.q.3:3689
-  rmfakecloudctl enable
-  systemctl start xochitl
+  Follow the guide at: https://ddvk.github.io/rmfakecloud/remarkable/setup/ to configure your device
 
-  This requires port 3689 to work with remarkable.
+  For example if you use automagic just specify the below URL when prompted, subsituting the IP for your own:
+
+  http://192.168.0.3:3689
+  
 
   !!Auth is disabled. ...
 developer: ddvk
