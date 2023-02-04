@@ -8,6 +8,10 @@ icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/im
 description: >-
   This is a replacement of the Remarkable cloud, in case you want to sync/backup your files and have full control of the hosting environment.
 
+
+  https://ddvk.github.io/rmfakecloud/remarkable/setup/
+
+
   This requires port 3689 to work with remarkable.
 developer: ddvk
 website: https://github.com/ddvk/rmfakecloud
@@ -23,5 +27,6 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 torOnly: false
+PROXY_AUTH_ADD: "false"
 submitter: Pippa
 submission: https://github.com/getumbrel/umbrel/commit/14f8b3aec8cb99ef0940ba0cd9df25b7126a95cc
