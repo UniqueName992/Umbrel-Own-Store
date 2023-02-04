@@ -31,9 +31,9 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/opt/hue-emulator/config
     environment:
-      - MAC=DC:00:0c:29:0b:24:e7
+      - MAC=DC:00:0c:29:0b:24:e8
       - IP=192.168.46.64
-    mac_address: 00:0c:29:0b:24:e7
+    mac_address: 00:0c:29:0b:24:e8
     networks:
       10_vlan:
         priority: 100
