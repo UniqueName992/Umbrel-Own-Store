@@ -4,7 +4,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: unique-rmfakecloud_server_1
-      APP_PORT: 3000
+      APP_PORT: 3689
       PROXY_AUTH_ADD: "false"
 
   server:
