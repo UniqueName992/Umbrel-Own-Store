@@ -35,9 +35,9 @@ services:
       - IP=192.168.46.64
     mac_address: 00:0c:29:0b:24:e7
     networks:
-      10_vlan:
+      unique-diyhue_10_vlan:
         priority: 100
-      20_internal: ~
+      unique-diyhue_20_internal: ~
 
 networks:
   10_vlan:
