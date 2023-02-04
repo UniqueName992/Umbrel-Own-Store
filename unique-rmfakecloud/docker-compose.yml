@@ -13,4 +13,4 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/data
     environment:
-      - STORAGE_URL=http://$EXTERNAL_IP:3000
+      - STORAGE_URL=http://$EXTERNAL_IP:3689
