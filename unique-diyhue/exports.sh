@@ -1,5 +1,5 @@
 DIYHUE_CONFIG=${UMBREL_ROOT}/data/storage/conf/diyhue.json
-if [ ! -f $DIYHUE_CONFIG_PATH ]
+if [ ! -f $DIYHUE_CONFIG ]
 then
   #device
   diyhue_dev=$( ip -json route | jq -r '.[] | select( .dst == "default" ).dev' )
