@@ -50,8 +50,8 @@ networks:
         - subnet: ${DIYHUE_SUBNET}
           gateway: ${DIYHUE_GATEWAY}
           ip_range: ${DIYHUE_SUBNET}
-    umbrel_main_network:
-      external: true
+  umbrel_main_network:
+    external: true
   # 20_internal:
   #   driver: bridge
   #   ipam:
