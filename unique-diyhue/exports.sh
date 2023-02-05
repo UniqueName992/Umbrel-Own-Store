@@ -1,4 +1,5 @@
 DIYHUE_CONFIG=${UMBREL_ROOT}/data/storage/conf/diyhue.json
+mkdir ${UMBREL_ROOT}/data/storage/conf -p
 if [ ! -f $DIYHUE_CONFIG ]
 then
   #device
