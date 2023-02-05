@@ -38,7 +38,7 @@ services:
       10_vlan:
         priority: 100
         ipv4_address: ${DIYHUE_IP}
-      umbrel_main_network: ~
+      - umbrel_main_network
 
 networks:
   10_vlan:
