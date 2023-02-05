@@ -26,7 +26,7 @@ website: https://github.com/ddvk/rmfakecloud
 dependencies: []
 repo: https://github.com/ddvk/rmfakecloud
 support: https://github.com/ddvk/rmfakecloud/issues
-port: 3689
+port: 80
 gallery:
   - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-1.png
   - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-2.png
