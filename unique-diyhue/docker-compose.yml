@@ -38,7 +38,7 @@ services:
       10_vlan:
         priority: 100
         ipv4_address: ${DIYHUE_IP}
-      20_internal: ~
+      # 20_internal: ~
 
 networks:
   10_vlan:
@@ -50,9 +50,9 @@ networks:
         - subnet: ${DIYHUE_SUBNET}
           gateway: ${DIYHUE_GATEWAY}
           ip_range: ${DIYHUE_SUBNET}
-  20_internal:
-    driver: bridge
-    ipam:
-      config:
-        - subnet: 172.18.0.0/30
-          gateway: 172.18.0.1
+  # 20_internal:
+  #   driver: bridge
+  #   ipam:
+  #     config:
+  #       - subnet: 172.18.0.0/30
+  #         gateway: 172.18.0.1
