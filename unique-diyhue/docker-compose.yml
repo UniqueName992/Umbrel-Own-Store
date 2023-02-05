@@ -32,24 +32,24 @@ services:
       - ${APP_DATA_DIR}/data:/opt/hue-emulator/config
     environment:
       - MAC=DC:00:0c:29:0b:24:e8
-      - IP=192.168.1.118
+      - IP=${DIYHUE_IP}
     mac_address: 00:0c:29:0b:24:e8
     networks:
       10_vlan:
         priority: 100
-        ipv4_address: 192.168.1.118
+        ipv4_address: ${DIYHUE_IP}
       20_internal: ~
 
 networks:
   10_vlan:
     driver: macvlan
     driver_opts:
-      parent: ens33
+      parent: ${DIYHUE_INTERFACE}
     ipam:
       config:
-        - subnet: 192.168.1.117/16
-          gateway: 192.168.1.1
-          ip_range: 192.168.1.117/16
+        - subnet: ${DIYHUE_SUBNET}
+          gateway: ${DIYHUE_GATEWAY}
+          ip_range: ${DIYHUE_SUBNET}
   20_internal:
     driver: bridge
     ipam:
