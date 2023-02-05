@@ -1,7 +1,10 @@
 version: "3.7"
 
 services:
- 
+  app_proxy:
+    environment:
+      APP_HOST: unique-diyhue_server_1
+      APP_PORT: 80
   # server:
   #   image: smeagolworms4/mqtt-explorer:browser-1.0.1
   #   volumes:
