@@ -16,8 +16,11 @@ description: >-
 
   http://192.168.0.3:3689
 
-
-  ⚠️ RMFakeCloud Bypasses the proxy and isn't secured by umbrel.
+  source IP from a file!!
+  ip r
+  ip a
+  
+  ⚠️ Requires promiscuos mode to be set for the network interface.
 developer: ddvk
 website: https://github.com/ddvk/rmfakecloud
 dependencies: []
