@@ -4,11 +4,11 @@ then
   #device
   diyhue_dev=$( ip -json route | jq -r '.[] | select( .dst == "default" ).dev' )
   #subnet
-  diyhue_sub=$( ip -json route | jq -r ' .[] | select( .dev == "ens33" and .scope == "link" ).dst ' )
+  diyhue_sub=$( ip -json route | jq -r ' .[] | select( .dev == "'$diyhue_dev'" and .scope == "link" ).dst ' )
   #gateway
   diyhue_gaw=$( ip -json route | jq -r '.[] | select( .dst == "default" ).gateway' )
   #ip
-  diyhue_hip=$( ip -json route | jq -r ' .[] | select( .dev == "ens33" and .scope == "link" ).prefsrc ' )
+  diyhue_hip=$( ip -json route | jq -r ' .[] | select( .dev == "'$diyhue_dev'" and .scope == "link" ).prefsrc ' )
   #new ip
   if [ $( echo $diyhue_hip | cut -d '.' -f 4 ) -gt 253 ] ; then
     diyhue_nip=$( echo $diyhue_hip | cut -d '.' -f 1,2,3 ).253
