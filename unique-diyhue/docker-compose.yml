@@ -37,6 +37,7 @@ services:
     networks:
       10_vlan:
         priority: 100
+        ipv4_address: 192.168.1.118
       20_internal: ~
 
 networks:
