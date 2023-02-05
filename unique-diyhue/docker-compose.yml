@@ -35,10 +35,10 @@ services:
       - IP=${DIYHUE_IP}
     #mac_address: 00:0c:29:0b:24:e8
     networks:
-      10_vlan:
-        priority: 100
-        ipv4_address: ${DIYHUE_IP}
-      # 20_internal: ~
+      - 10_vlan
+          priority: 100
+          ipv4_address: ${DIYHUE_IP}
+      - umbrel_main_network
 
 networks:
   10_vlan:
@@ -50,6 +50,8 @@ networks:
         - subnet: ${DIYHUE_SUBNET}
           gateway: ${DIYHUE_GATEWAY}
           ip_range: ${DIYHUE_SUBNET}
+    umbrel_main_network:
+      external: true
   # 20_internal:
   #   driver: bridge
   #   ipam:
