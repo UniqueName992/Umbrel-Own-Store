@@ -31,9 +31,9 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/opt/hue-emulator/config
     environment:
-      - MAC=DC:00:0c:29:0b:24:e8
+      #- MAC=DC:00:0c:29:0b:24:e8
       - IP=${DIYHUE_IP}
-    mac_address: 00:0c:29:0b:24:e8
+    #mac_address: 00:0c:29:0b:24:e8
     networks:
       10_vlan:
         priority: 100
