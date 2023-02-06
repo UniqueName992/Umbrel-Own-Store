@@ -6,7 +6,7 @@ version: "880"
 tagline: Light up your Home with Hue Emulator
 icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-diyhue-icon.svg
 description: >-
-  ⚠️ Requires config. Read the [Store Wiki](https://github.com/UniqueName992/Uniques-Umbrel-App-Store/wiki/DIYHue)
+  ⚠️ Requires a static IP. Read the Store Wiki at https://github.com/UniqueName992/Uniques-Umbrel-App-Store/wiki/DIYHue first.
 
 
   diyHue brings together multiple Smarthome Solutions into one Ecosystem.
@@ -32,14 +32,8 @@ description: >-
   Providing a environment for the DIY Enthusiast and users that like the convenience of ready to use Products.
 
 
-  How it works?
-
-
   The Python Script Emulates a System that other devices can connect to.
   Manage your Lights with diyHue as the Heart and Soul in the middle.
-  
-
-  The diyHue Map shows the basic principle of devices and how they are connected.
   
 
   Commonly it is used with ESP8266 Microcontrollers, flashed with the provided Firmware in the Github Repo, making a affordable diyHue Light yourself.
@@ -75,7 +69,7 @@ gallery:
   - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-diyhue-2.png
   - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-diyhue-3.png
 path: ""
-defaultUsername: ""
+defaultUsername: ${DIYHUE_IP}
 defaultPassword: ""
 torOnly: false
 submitter: UniqueName992
