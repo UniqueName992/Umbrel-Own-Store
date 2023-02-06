@@ -11,10 +11,10 @@ then
   #ip
   diyhue_hip=$( ip -json route | jq -r ' .[] | select( .dev == "'$diyhue_dev'" and .scope == "link" ).prefsrc ' )
   #new ip
-  if [ $( echo $diyhue_hip | cut -d '.' -f 4 ) -gt 253 ] ; then
-    diyhue_nip=$( echo $diyhue_hip | cut -d '.' -f 1,2,3 ).253
+  if [ $( echo $diyhue_hip | cut -d '.' -f 4 ) -gt 242 ] ; then
+    diyhue_nip=$( echo $diyhue_hip | cut -d '.' -f 1,2,3 ).241
   else
-    diyhue_nip=$( echo $diyhue_hip | cut -d '.' -f 1,2,3 ).$(( $( echo $diyhue_hip | cut -d '.' -f 4 ) + 1 ))
+    diyhue_nip=$( echo $diyhue_hip | cut -d '.' -f 1,2,3 ).$(( $( echo $diyhue_hip | cut -d '.' -f 4 ) + 12 ))
   fi
   #Write Out
   diyhue_json='{
