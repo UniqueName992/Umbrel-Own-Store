@@ -4,10 +4,15 @@ This repository is a community store for Umbrel. Here are several additional app
 
 ### Apps
 * [MQTT Explorer](http://mqtt-explorer.com/)
+  See the data traveling through your MQTT server
 * [RM FakeCloud](https://github.com/ddvk/rmfakecloud)
+  Replace the Remarkable clloud with a self hsoted one
 * [Portainer Community Edition](https://www.portainer.io/)
+  Advanced Container COntrol
 * [Open Books](https://github.com/evan-buss/openbooks)
-
+  Download Ebooks from the IIRC Highway
+* [DIY Hue Emulator](https://diyhue.org/)
+  Emulate a Philips Hue Smart Light System
 ### Quick Start
 
 To add this repository through the Umbrel user interface follow the following demo:
