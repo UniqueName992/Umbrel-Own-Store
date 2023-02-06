@@ -2,9 +2,9 @@ manifestVersion: 1
 id: unique-diyhue
 category: Networking
 name: diyhue
-version: "0.0.12"
+version: "880"
 tagline: This is a replacement of the Remarkable cloud, in case you want to sync/backup your files and have full control of the hosting environment.
-icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-icon.svg
+icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-diyhue-icon.svg
 description: >-
   This is a replacement of the Remarkable cloud, in case you want to sync/backup your files and have full control of the hosting environment.
 
@@ -28,9 +28,9 @@ repo: https://github.com/ddvk/rmfakecloud
 support: https://github.com/ddvk/rmfakecloud/issues
 port: 8482
 gallery:
-  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-1.png
-  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-2.png
-  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-rmfakecloud-3.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-diyhue-1.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-diyhue-2.png
+  - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-diyhue-3.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
