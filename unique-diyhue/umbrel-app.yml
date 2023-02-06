@@ -69,7 +69,7 @@ gallery:
   - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-diyhue-2.png
   - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-diyhue-3.png
 path: ""
-defaultUsername: ${DIYHUE_IP}
+defaultUsername: ""
 defaultPassword: ""
 torOnly: false
 submitter: UniqueName992
