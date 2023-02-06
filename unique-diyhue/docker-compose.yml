@@ -1,0 +1,33 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: unique-diyhue_server_1
+      APP_PORT: 80
+
+  server:
+    image: diyhue/core:880
+    restart: unless-stopped
+    volumes:
+      - ${UMBREL_ROOT}/data/storage/conf/diyhue:/opt/hue-emulator/config
+    environment:
+      - IP=${DIYHUE_IP}
+    networks:
+      10_vlan:
+        priority: 100
+        ipv4_address: ${DIYHUE_IP}
+      umbrel_main_network:
+
+networks:
+  10_vlan:
+    driver: macvlan
+    driver_opts:
+      parent: ${DIYHUE_INTERFACE}
+    ipam:
+      config:
+        - subnet: ${DIYHUE_SUBNET}
+          gateway: ${DIYHUE_GATEWAY}
+          ip_range: ${DIYHUE_SUBNET}
+  umbrel_main_network:
+    external: true
