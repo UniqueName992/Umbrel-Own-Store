@@ -15,6 +15,8 @@ To add this repository through the Umbrel user interface follow the following de
 
 https://user-images.githubusercontent.com/10330103/197889452-e5cd7e96-3233-4a09-b475-94b754adc7a3.mp4
 
+Use `https://github.com/UniqueName992/Uniques-Umbrel-App-Store` for the store address.
+
 Apps can then be installed by browsing to the community app store and clicking open next to this one.
 
 Alternatively, you can use the Umbrel CLI as described below.
