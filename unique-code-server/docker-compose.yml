@@ -1,0 +1,14 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: unique-code-server_server_1
+      APP_PORT: 8080
+
+  server:
+    image: codercom/code-server:4.4.0@sha256:f0b4cdac7b7742ec83167666b5bc8abb90c4f2660247d482f55fee916d079cb6
+    restart: on-failure
+    user: "0:0"
+    environment:
+      PASSWORD: $APP_PASSWORD
