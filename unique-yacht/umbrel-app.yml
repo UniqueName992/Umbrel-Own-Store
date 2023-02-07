@@ -16,19 +16,19 @@ description: >-
 
   Features:
 
-- Vuetify UI Framework
+  - Vuetify UI Framework
 
-- Basic Container Management
+  - Basic Container Management
 
-- Template Framework
+  - Template Framework
 
-- Easy Template Updating
+  - Easy Template Updating
 
-- Centralized settings for volume management and similar QOL functionality.
+  - Centralized settings for volume management and similar QOL functionality.
 
-- Docker-Compose Compatibility
+  - Docker-Compose Compatibility
 
-- Advanced Container Management (Edit/Modify)
+  - Advanced Container Management (Edit/Modify)
 
 - container management
 developer: SelfhostedPro
