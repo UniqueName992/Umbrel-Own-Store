@@ -5,4 +5,4 @@ if [ ! -f $ConfDir/compose-mod.yml ]
 then
     cp $AppDir/compose-mod.yml $ConfDir/compose-mod.yml
 fi
-yq eval-all '. as $item ireduce ({}; . *+ $item)' $AppDir/docker-compose.yml $ConfDir/compose-mod.yml
+yq eval-all '. as $item ireduce ({}; . *+ $item)' $AppDir/docker-compose-template.yml $ConfDir/compose-mod.yml
