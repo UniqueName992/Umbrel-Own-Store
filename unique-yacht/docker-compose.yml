@@ -15,6 +15,6 @@ services:
     environment:
       - PUID=0
       - PGID=0
-      - SECRET_KEY=$(YACHT_SECRET)
+      - "SECRET_KEY=$(YACHT_SECRET)"
       - COMPOSE_DIR=/compose
     restart: on-failure
