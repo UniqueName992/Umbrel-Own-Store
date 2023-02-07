@@ -8,7 +8,9 @@ icon: https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/im
 description: >-
   Yacht was designed from the ground up to be easily installed and used to get your website up and running quickly.
 
+
   Yacht lets you focus on what apps you want to run instead of worrying about how to deploy them.
+
 
   Managing large docker projects has never been easier. Import compose projects you're already using or write new ones easily using the built in editor.
 
