@@ -42,7 +42,7 @@ gallery:
   - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-yacht-2.png
   - https://raw.githubusercontent.com/UniqueName992/Umbrel-Own-Store/master/img/unique-yacht-3.png
 path: ""
-defaultUsername: ""
-defaultPassword: ""
+defaultUsername: "admin@yacht.local"
+defaultPassword: "pass"
 torOnly: false
 submitter: UniqueName992
