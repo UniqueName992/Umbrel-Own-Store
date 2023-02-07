@@ -16,5 +16,5 @@ services:
       - PUID=0
       - PGID=0
       - COMPOSE_DIR=/compose
-      - SECRET_KEY=$(YACHT_SECRET)
+      - "SECRET_KEY=$(YACHT_SECRET)"
     restart: on-failure
