@@ -7,7 +7,7 @@ services:
       APP_PORT: 8000
 
   server:
-    restart: on-failure
+    image: selfhostedpro/yacht:v0.0.7-alpha-2023-01-12--05
     volumes:
       - ${APP_DATA_DIR}/data/config:/config
       - /var/run/docker.sock:/var/run/docker.sock
@@ -16,4 +16,4 @@ services:
       - PUID=0
       - PGID=0
       - COMPOSE_DIR=/compose
-    image: selfhostedpro/yacht:v0.0.7-alpha-2023-01-12--05
+    restart: on-failure
