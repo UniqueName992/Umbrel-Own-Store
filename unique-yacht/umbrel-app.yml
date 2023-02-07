@@ -30,7 +30,7 @@ description: >-
 
   - Advanced Container Management (Edit/Modify)
 
-- container management
+  - container management
 developer: SelfhostedPro
 website: https://yacht.sh/
 dependencies: []
