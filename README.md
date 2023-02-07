@@ -13,6 +13,9 @@ This repository is a community store for Umbrel. Here are several additional app
   Download Ebooks from the IIRC Highway
 * [DIY Hue Emulator](https://diyhue.org/)
   Emulate a Philips Hue Smart Light System
+* [Yacht](https://yacht.sh/)
+  A container management UI with a focus on templates and 1-click deployments.
+  
 ### Quick Start
 
 To add this repository through the Umbrel user interface follow the following demo:
