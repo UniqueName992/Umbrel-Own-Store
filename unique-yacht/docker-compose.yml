@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: unique-portainerce_server_1
+      APP_PORT: 8000
+
+  server:
+    restart: on-failure
+    volumes:
+      - ${APP_DATA_DIR}/data/config:/config
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ${APP_DATA_DIR}/data/compose:/compose
+    environment:
+      - PUID=0
+      - PGID=0
+      - COMPOSE_DIR=/compose
+    image: selfhostedpro/yacht:v0.0.7-alpha-2023-01-12--05
