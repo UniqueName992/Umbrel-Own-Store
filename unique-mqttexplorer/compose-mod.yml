@@ -1,0 +1,7 @@
+services:
+  mqtt-explorer:
+    volumes:
+      - ${APP_DATA_DIR}/data:/mqttexplorer
+    environment:
+      - CONFIG_PATH=/mqttexplorer
+      - HTTP_PORT=4821
