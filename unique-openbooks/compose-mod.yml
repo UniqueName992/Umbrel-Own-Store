@@ -1,5 +1,4 @@
-version: "3.7"0
-
+services:
   openbooks:
     volumes:
       - ${APP_DATA_DIR}/data:/books/books
