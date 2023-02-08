@@ -1,3 +1,4 @@
-AppDir=${UMBREL_ROOT}/app-data/unique-portainerce
-ConfDir=${UMBREL_ROOT}/data/storage/unique-store/portainerce
+AppID=portainerce
+AppDir=${UMBREL_ROOT}/app-data/unique-$AppID
+ConfDir=${UMBREL_ROOT}/data/storage/unique-store/$AppID
 source $AppDir/unique-store.sh
