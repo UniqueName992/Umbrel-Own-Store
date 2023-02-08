@@ -1,0 +1,9 @@
+services:
+  code-server:
+    user: "0:0"
+    environment:
+      PASSWORD: $APP_PASSWORD
+    volumes:
+      - ${UNIQUE_APP_DATA_DIR}/.bashrc:/home/coder/.bashrc
+      - ${UNIQUE_APP_DATA_DIR}/.loaders:/home/coder/.loaders
+      - ${UMBREL_ROOT}:/home/coder/umbrel
