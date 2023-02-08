@@ -4,5 +4,5 @@ services:
     environment:
       PASSWORD: $APP_PASSWORD
     volumes:
-      - ${UNIQUE_APP_DATA_DIR}/data:/home/coder
+      - ${UNIQUE_APP_DATA_DIR}:/home/coder
       - ${UMBREL_ROOT}:/home/coder/umbrel
