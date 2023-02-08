@@ -1,0 +1,6 @@
+version: "3.7"0
+
+  openbooks:
+    volumes:
+      - ${APP_DATA_DIR}/data:/books/books
+    command: --name $RM_NAME --searchbot searchook --persist
