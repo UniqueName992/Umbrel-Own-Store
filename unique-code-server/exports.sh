@@ -7,5 +7,5 @@ then
 fi
 yq eval-all '. as $item ireduce ({}; . *+ $item)' $AppDir/docker-compose-template.yml $ConfDir/compose-mod.yml > $AppDir/docker-compose.yml
 export UNIQUE_APP_DATA_DIR=${ConfDir}/data
-cp $AppDir/data-template $ConfDir/data
+cp $AppDir/data-template $ConfDir/data -r
 ln -sf $ConfDir/data $AppDir/data
