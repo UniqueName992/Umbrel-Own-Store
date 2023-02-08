@@ -14,7 +14,7 @@ yq eval-all '. as $item ireduce ({}; . *+ $item)' $AppDir/docker-compose-templat
 if [ ! -L $AppDir/data ]
 then
     echo Hard Symlinking data directory
-    ln $ConfDir/data $AppDir/data
+    ln -s $ConfDir/data $AppDir/data
 fi
 
 # if no data dir, make it, copy template
