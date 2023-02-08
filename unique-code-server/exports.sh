@@ -1,5 +1,6 @@
 AppDir=${UMBREL_ROOT}/app-data/unique-code-server
 ConfDir=${UMBREL_ROOT}/data/storage/unique/code-server
+mkdir -p $ConfDir
 if [ ! -f $ConfDir/compose-mod.yml ]
 then
     cp $AppDir/compose-mod.yml $ConfDir/compose-mod.yml
