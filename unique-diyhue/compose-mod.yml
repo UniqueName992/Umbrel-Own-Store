@@ -1,7 +1,7 @@
 services:
   diyhue:
     volumes:
-      - ${UMBREL_ROOT}/data/storage/conf/diyhue:/opt/hue-emulator/config
+      - ${UNIQUE_APP_DATA_DIR}:/opt/hue-emulator/config
     environment:
       - IP=${DIYHUE_IP}
     networks:
