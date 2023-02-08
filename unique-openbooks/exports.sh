@@ -1,5 +1,6 @@
-AppDir=${UMBREL_ROOT}/app-data/unique-openbooks
-ConfDir=${UMBREL_ROOT}/data/storage/unique-store/openbooks
+AppID=openbooks
+AppDir=${UMBREL_ROOT}/app-data/unique-$AppID
+ConfDir=${UMBREL_ROOT}/data/storage/unique-store/$AppID
 source $AppDir/unique-store.sh
 
 export RM_NAME_name=$(curl -s https://randomuser.me/api/)

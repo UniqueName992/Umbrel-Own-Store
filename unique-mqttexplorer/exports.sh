@@ -1,3 +1,4 @@
-AppDir=${UMBREL_ROOT}/app-data/unique-mqttexplorer
-ConfDir=${UMBREL_ROOT}/data/storage/unique-store/mqttexplorer
+AppID=mqttexplorer
+AppDir=${UMBREL_ROOT}/app-data/unique-$AppID
+ConfDir=${UMBREL_ROOT}/data/storage/unique-store/$AppID
 source $AppDir/unique-store.sh

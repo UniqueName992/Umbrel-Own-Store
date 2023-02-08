@@ -1,5 +1,6 @@
-AppDir=${UMBREL_ROOT}/app-data/unique-diyhue
-ConfDir=${UMBREL_ROOT}/data/storage/unique-store/diyhue
+AppID=diyhue
+AppDir=${UMBREL_ROOT}/app-data/unique-$AppID
+ConfDir=${UMBREL_ROOT}/data/storage/unique-store/$AppID
 source $AppDir/unique-store.sh
 
 DIYHUE_CONFIG=$ConfDir/net.json
