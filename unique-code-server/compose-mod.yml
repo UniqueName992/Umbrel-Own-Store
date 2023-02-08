@@ -1,9 +1,8 @@
 services:
-  server:
+  code-server:
     user: "0:0"
     environment:
       PASSWORD: $APP_PASSWORD
     volumes:
       - ${APP_DATA_DIR}/data:/home/coder
       - ${UMBREL_ROOT}:/home/coder/umbrel
-      
