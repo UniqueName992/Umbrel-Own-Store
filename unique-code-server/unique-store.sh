@@ -18,10 +18,10 @@ then
 fi
 
 # if no symlink to data dir, make it
-if [ ! -L $AppDir/data ]
-then
-    echo Symlinking data directory
-    ln -s $ConfDir/data $AppDir/data
-fi
+# if [ ! -L $AppDir/data ]
+# then
+#     echo Symlinking data directory
+#     ln -s $ConfDir/data $AppDir/data
+# fi
 
 export UNIQUE_APP_DATA_DIR=${ConfDir}/data
