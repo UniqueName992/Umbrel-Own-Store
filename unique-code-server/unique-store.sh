@@ -13,12 +13,14 @@ yq eval-all '. as $item ireduce ({}; . *+ $item)' $AppDir/docker-compose-templat
 # if no data dir, make it, copy template
 if [ ! -f $ConfDir/data ]
 then
+    echo copying data
     cp $AppDir/data-template $ConfDir/data -r
 fi
 
 # if no symlink to data dir, make it
 if [ ! -f $AppDir/data ]
 then
+    echo symlinking data
     ln -sf $ConfDir/data $AppDir/data
 fi
 
