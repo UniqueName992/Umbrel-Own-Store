@@ -11,7 +11,7 @@ fi
 yq eval-all '. as $item ireduce ({}; . *+ $item)' $AppDir/docker-compose-template.yml $ConfDir/compose-mod.yml > $AppDir/docker-compose.yml
 
 # if no data dir, make it, copy template
-if [ ! -f $ConfDir/data ]
+if [[] ! -d $ConfDir/data ]]
 then
     echo copying data
     cp $AppDir/data-template $ConfDir/data -r
