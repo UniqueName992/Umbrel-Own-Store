@@ -18,7 +18,7 @@ then
 fi
 
 # if no symlink to data dir, make it
-if [ ! -f $AppDir/data ]
+if [ ! -L $AppDir/data ]
 then
     echo symlinking data
     ln -sf $ConfDir/data $AppDir/data
