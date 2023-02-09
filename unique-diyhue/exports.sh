@@ -1,5 +1,11 @@
-DIYHUE_CONFIG=${UMBREL_ROOT}/data/storage/conf/diyhue/net.json
-mkdir ${UMBREL_ROOT}/data/storage/conf/diyhue -p
+AppID=diyhue
+AppDir=${UMBREL_ROOT}/app-data/unique-$AppID
+ConfDir=${UMBREL_ROOT}/data/storage/unique-store/$AppID
+source $AppDir/unique-store.sh
+
+DIYHUE_CONFIG=$ConfDir/net.json
+#mkdir ${UMBREL_ROOT}/data/storage/conf/diyhue -p
+
 if [ ! -f $DIYHUE_CONFIG ]
 then
   #device

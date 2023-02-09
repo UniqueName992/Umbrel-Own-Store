@@ -1,0 +1,11 @@
+services:
+  server:
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
+    environment:
+      - STORAGE_URL=http://$EXTERNAL_IP:3689
+      - JWT_SECRET_KEY=$RM_JWT
+      - RM_TRUST_PROXY=true
+      - PORT=3689
+    ports:
+      - 3689:3689

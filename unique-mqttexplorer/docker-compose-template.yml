@@ -9,3 +9,4 @@ services:
   mqtt-explorer:
     image: smeagolworms4/mqtt-explorer:browser-1.0.1
     restart: on-failure
+    

@@ -1,0 +1,24 @@
+services:
+  diyhue:
+    volumes:
+      - ${UNIQUE_APP_DATA_DIR}:/opt/hue-emulator/config
+    environment:
+      - IP=${DIYHUE_IP}
+    networks:
+      10_vlan:
+        priority: 100
+        ipv4_address: ${DIYHUE_IP}
+      umbrel_main_network:
+
+networks:
+  10_vlan:
+    driver: macvlan
+    driver_opts:
+      parent: ${DIYHUE_INTERFACE}
+    ipam:
+      config:
+        - subnet: ${DIYHUE_SUBNET}
+          gateway: ${DIYHUE_GATEWAY}
+          ip_range: ${DIYHUE_SUBNET}
+  umbrel_main_network:
+    external: true
