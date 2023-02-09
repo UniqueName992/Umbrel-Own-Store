@@ -3,5 +3,5 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: 127.0.0.1
+      # APP_HOST: host
       APP_PORT: 9090
