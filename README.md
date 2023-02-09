@@ -1,6 +1,15 @@
 ## Unique's Umbrel Community App Store
 
-This repository is a community store for Umbrel. Here are several additional apps for Umbrel.
+This repository is a community store for Umbrel. 
+
+This app store features two additional feature over standard umbrel apps:
+
+### Persistent Storage
+Find the configuration data for the apps under umbrel/data/storage/unique-store/<app>/data. Re-install the app and this data will persist.
+
+### Tweakable settings
+Find a compose-mod/yml file for each app at umbrel/data/storage/unique-store/app/compose-mod.yml
+Modify this file and re-install to change environments variables/volumes etc. to suit your needs. Delete the file and re-install the app at any time to revert to default.
 
 ### Apps
 * [MQTT Explorer](http://mqtt-explorer.com/)
@@ -15,6 +24,10 @@ This repository is a community store for Umbrel. Here are several additional app
   Emulate a Philips Hue Smart Light System
 * [Yacht](https://yacht.sh/)
   A container management UI with a focus on templates and 1-click deployments.
+  
+### Modified Apps
+* [Code-Server](https://coder.com)
+  Modified to now expose the umbrel directory. Use this as a web editor to modify improtant configuration files, for example, home-assistant.yml
   
 ### Quick Start
 
