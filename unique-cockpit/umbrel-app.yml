@@ -1,10 +1,10 @@
 manifestVersion: 1
 id: unique-cockpit
 category: Development
-name: Cock Put
+name: Cock Pit
 version: "4.4.0"
 tagline: Run VS Code on your Umbrel
-icon: https://getumbrel.github.io/umbrel-apps-gallery/code-server/icon.svg
+icon: https://getumbrel.github.io/umbrel-apps-gallery/cockpit/icon.svg
 description: >-
   This is modifieid from the default to make the umbrel directory visible for editing.
 
@@ -21,7 +21,7 @@ website: https://coder.com
 dependencies: []
 repo: https://github.com/cdr/code-server
 support: https://github.com/cdr/code-server/discussions
-port: 9090
+port: 48337
 gallery:
   - https://getumbrel.github.io/umbrel-apps-gallery/code-server/1.jpg
   - https://getumbrel.github.io/umbrel-apps-gallery/code-server/2.jpg
