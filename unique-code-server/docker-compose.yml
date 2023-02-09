@@ -7,5 +7,5 @@ services:
       APP_PORT: 8080
 
   code-server:
-    image: codercom/code-server:4.4.0@sha256:f0b4cdac7b7742ec83167666b5bc8abb90c4f2660247d482f55fee916d079cb6
+    image: linuxserver/code-server:4.9.1
     restart: on-failure
