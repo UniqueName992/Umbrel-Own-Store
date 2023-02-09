@@ -4,7 +4,8 @@ services:
       - PASSWORD=$APP_PASSWORD
       - PUID=0
       - PGID=0
+      - DEFAULT_WORKSPACE=/workspace
     volumes:
-      - ${UNIQUE_APP_DATA_DIR}/.bashrc:/home/coder/.bashrc
-      - ${UNIQUE_APP_DATA_DIR}/.loaders:/home/coder/.loaders
-      - ${UMBREL_ROOT}:/home/coder/umbrel
+      - ${UNIQUE_APP_DATA_DIR}/workspace:/workspace
+      - ${UNIQUE_APP_DATA_DIR}/config:/config
+      - ${UMBREL_ROOT}:/workspace/umbrel
