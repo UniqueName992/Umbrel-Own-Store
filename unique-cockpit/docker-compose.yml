@@ -1,5 +1,5 @@
 version: "3.7"
   app_proxy:
     environment:
-      APP_HOST: unique-code-server_code-server_1
+      APP_HOST: localhost
       APP_PORT: 9090
