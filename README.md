@@ -2,12 +2,13 @@
 
 This repository is a community store for Umbrel. 
 
-This app store features two additional feature over standard umbrel apps:
+This app store has two additional features over standard umbrel apps:
 
 ### Persistent Storage
 Find the configuration data for the apps under umbrel/data/storage/unique-store/<app>/data. Re-install the app and this data will persist.
 
 ### Tweakable settings
+Tweak the docker-compose settings on the fly!
 Find a compose-mod/yml file for each app at umbrel/data/storage/unique-store/app/compose-mod.yml
 Modify this file and re-install to change environments variables/volumes etc. to suit your needs. Delete the file and re-install the app at any time to revert to default.
 
