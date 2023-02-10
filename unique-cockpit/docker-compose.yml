@@ -1,11 +1,11 @@
 version: "3.7"
 
 # services: ~
-  # app_proxy:
-    # environment:
-    #   # APP_HOST: 192.168.0.117
-    #   APP_PORT: 9095
-    #   PROXY_AUTH_ADD: "false"
-  networks:
-    umbrel_main_network:
-      external: true
+  app_proxy:
+    environment:
+      APP_HOST: 192.168.0.117
+      APP_PORT: 9095
+      # PROXY_AUTH_ADD: "false"
+  # networks:
+  #   umbrel_main_network:
+  #     external: true
