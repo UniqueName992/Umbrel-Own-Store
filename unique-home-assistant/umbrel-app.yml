@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: home-assistant
+id: unique-home-assistant
 category: Automation
 name: Home Assistant
 version: "2023.2.0"
