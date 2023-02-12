@@ -29,6 +29,8 @@ Modify this file and re-install to change environments variables/volumes etc. to
 ### Modified Apps
 * [Code-Server](https://coder.com)
   Modified to now expose the umbrel directory. Use this as a web editor to modify improtant configuration files, for example, home-assistant.yml
+* [Home Assistant](https://www.home-assistant.io/)
+  Modified for service discovery and persistent storage.
   
 ### Quick Start
 
