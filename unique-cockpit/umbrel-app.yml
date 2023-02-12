@@ -21,7 +21,7 @@ website: https://coder.com
 dependencies: []
 repo: https://github.com/cdr/code-server
 support: https://github.com/cdr/code-server/discussions
-port: 9095
+port: 9090
 gallery:
   - https://getumbrel.github.io/umbrel-apps-gallery/code-server/1.jpg
   - https://getumbrel.github.io/umbrel-apps-gallery/code-server/2.jpg
