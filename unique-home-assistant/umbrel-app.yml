@@ -2,7 +2,7 @@ manifestVersion: 1
 id: unique-home-assistant
 category: Automation
 name: Home Assistant
-version: "2023.2.0"
+version: "2023.2.3"
 tagline: Home automation that puts local control & privacy first
 icon: https://getumbrel.github.io/umbrel-apps-gallery/home-assistant/icon.svg
 description: >-
@@ -45,7 +45,5 @@ defaultUsername: ""
 defaultPassword: ""
 torOnly: false
 releaseNotes: >-
-  Full changelog (for 2022.11.2) can found at: https://www.home-assistant.io/changelogs/core-2022.11
-releaseNotes: >-
-  Full changelog (for 2023.2.0) can found at: https://www.home-assistant.io/changelogs/core-2023.2
+  Full changelog (for 2023.2.3) can found at: https://www.home-assistant.io/changelogs/core-2023.2.3
 submitter: Unique
