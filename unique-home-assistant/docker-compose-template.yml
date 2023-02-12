@@ -2,5 +2,5 @@ version: "3.7"
 
 services:
   home-assistant:
-    image: lscr.io/linuxserver/homeassistant:2023.2.0
+    image: lscr.io/linuxserver/homeassistant:2023.2.3
     
