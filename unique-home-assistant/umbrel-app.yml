@@ -1,0 +1,50 @@
+manifestVersion: 1
+id: home-assistant
+category: Automation
+name: Home Assistant
+version: "2023.2.0"
+tagline: Home automation that puts local control & privacy first
+icon: https://getumbrel.github.io/umbrel-apps-gallery/home-assistant/icon.svg
+description: >-
+  This is modified from Umbrel's verion with: 
+
+  - Persistent storage for configuration
+
+  - Using linuxserver image for more stability
+
+  - Host networking to allow service discovery
+
+  - Modifable compose to add your own devices or volumes to suit your setup
+
+
+  Open source home automation that puts local control and privacy
+  first, powered by a worldwide community of tinkerers and DIY enthusiasts. Home
+  Assistant integrates with over a thousand different devices and services. Once
+  you have integrated all your devices at home, you can unleash Home Assistant’s
+  advanced automation engine to make your home work for you. Examples: 
+
+
+  - Turn on the light when the sun sets or when coming home 
+
+  - Alert you when you leave your garage door open 
+
+
+  All your smart home data stays local. Home Assistant communicates with your devices locally, and will fallback to pulling in data from the cloud if there is no other option. No data is stored in the cloud, and everything is processed locally.
+developer: Home Assistant
+website: https://home-assistant.io
+dependencies: []
+repo: https://github.com/home-assistant/core
+support: https://community.home-assistant.io
+port: 8123
+gallery:
+  - https://getumbrel.github.io/umbrel-apps-gallery/home-assistant/1.jpg
+  - https://getumbrel.github.io/umbrel-apps-gallery/home-assistant/2.jpg
+  - https://getumbrel.github.io/umbrel-apps-gallery/home-assistant/3.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+releaseNotes: >-
+  Full changelog (for 2022.11.2) can found at: https://www.home-assistant.io/changelogs/core-2022.11
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel/commit/9d79cffae608c6a6ab077f859c1c531a581cf926
